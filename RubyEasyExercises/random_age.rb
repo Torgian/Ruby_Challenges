@@ -1,0 +1,1 @@
+p "Teddy is " + rand(20..200).to_s + " years old today!"
