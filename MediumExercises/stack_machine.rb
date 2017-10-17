@@ -16,7 +16,7 @@ class Mini_Lang
     #p register.object_id
     register[0] = stack.pop + register[0]
     #p register[0].object_id
-    #return register
+    return register
   end
 
   def sub(register, stack)
