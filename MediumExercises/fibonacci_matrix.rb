@@ -3,7 +3,7 @@ def fib_matrix(num)
   if num == 0
     return 0
   else
-    power(f, num)
+    power(f, num)  
   end
   return f[0][0]
 end
@@ -30,4 +30,5 @@ def power(f, num)
   end
 end
 
-p fib_matrix(20)
+
+p matrix_fib(20)
