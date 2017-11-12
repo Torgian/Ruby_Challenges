@@ -18,6 +18,9 @@ def bubble_sort!(array)
     y -= 1
     i = 1
   end
+  #required if the array is only has two elements
+  return array
 end
 
 p bubble_sort!([6,2,7,1,4,9])
+p bubble_sort!([5,3])
