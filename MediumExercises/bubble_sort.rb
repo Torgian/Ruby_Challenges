@@ -24,3 +24,4 @@ end
 
 p bubble_sort!([6,2,7,1,4,9])
 p bubble_sort!([5,3])
+p bubble_sort!(array = %w(Sue Pete Alice Tyler Rachel Kim Bonnie))
